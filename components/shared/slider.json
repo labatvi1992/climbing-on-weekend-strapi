@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "desktop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-desc"
+    }
+  }
+}
