@@ -1,0 +1,5 @@
+*.DS_Store
+*-lock.json
+.env
+node_modules/
+build/
