@@ -20,6 +20,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.slider"
+    },
+    "members": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.members"
     }
   }
 }

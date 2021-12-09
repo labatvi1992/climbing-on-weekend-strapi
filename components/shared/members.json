@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_members",
+  "info": {
+    "name": "Members",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card"
+    }
+  }
+}
