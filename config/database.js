@@ -15,7 +15,10 @@ module.exports = ({ env }) => {
           database,
           username: user,
           password,
-          ssl: JSON.parse(env("DATABASE_SSL", false)),
+          // ssl: false, // local
+          ssl: {
+            rejectUnauthorized: false, // heroku
+          },
         },
         options: {},
       },
