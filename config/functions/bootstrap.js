@@ -196,7 +196,7 @@ async function importSeedData() {
   await importGlobal();
 }
 
-module.exports = async () => {
+async function seedData() {
   const shouldImportSeedData = await isFirstRun();
 
   if (shouldImportSeedData) {
@@ -209,4 +209,10 @@ module.exports = async () => {
       console.error(error);
     }
   }
+}
+
+module.exports = async () => {
+  console.log("Before seed data...");
+  // await seedData();
+  console.log("Finish seed data!");
 };
